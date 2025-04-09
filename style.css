@@ -1,0 +1,114 @@
+.hero {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+h1{
+  
+    color: aliceblue;
+    height: 50px;
+    display: inline;
+margin-left: 30px;
+
+    
+}
+ul,li{
+    color: aliceblue;
+    display: inline-block;
+    font-size: large;
+    cursor: pointer;
+
+}
+li:hover{color: rgb(15, 3, 190);
+
+}
+ul{
+    margin-left: 60%    ;
+}
+.search{
+    background-color: rgb(253, 253, 253);
+    margin: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 30px;
+    padding-top: 10px     ;
+    font-size: larger;
+   
+  
+   border: solid;
+}
+.img1, .img2, .img3 {
+    box-shadow: 0 10px 20px rgba(39, 38, 38, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.img1:hover, .img2:hover, .img3:hover {
+    transform: scale(1.05);
+}
+
+.img1{
+  height: 350px;
+ 
+    display: inline-block; 
+     margin-left: 25%;
+    padding-top: 30px;border: solid black;
+ padding-left: 5px;
+ padding-right: 5px;
+    
+    
+   
+}
+.img2{
+    height: 350px;
+ 
+display: inline-block; 
+    margin-left: 80px;
+padding-top: 30px;
+border: solid black;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+.img3{
+    height: 350px;
+ 
+    display: inline-block; 
+        margin-left: 80px;
+    padding-top: 30px;
+    border: solid black;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+.about{
+    text-align: center;
+    cursor: pointer;
+}   
+.about:hover{
+    color: rgb(189, 102, 102);
+    
+    
+}
+.paragraph{
+    margin: 30px;
+}
+.footer{
+  background-color: black;
+  color: rgb(255, 255, 255);
+
+
+ 
+}
+.footer h3 {
+    text-align: center;
+    margin: 5px 0;
+}
+
+h3{
+    text-align: center;
+}
+.san{
+    margin: 30px;
+}
